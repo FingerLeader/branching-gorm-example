@@ -2,3 +2,5 @@ github:
   branch:
     allowList:
       - "column_typo_example5"
+    mode:
+      - "reserve"
