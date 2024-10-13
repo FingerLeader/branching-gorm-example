@@ -1,4 +1,5 @@
 github:
   branch:
     allowList:
-      - "ci_example"
+      - "column_typo_example5"
+    mode: "reset"
