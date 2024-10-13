@@ -120,7 +120,7 @@ func RunMigrations() {
 			// alter table
 			ID: "202307111200",
 			Migrate: func(db *gorm.DB) error {
-				if err := db.Exec("ALTER TABLE `users` ADD `new2_field` varchar(255) NOT NULL").Error; err != nil {
+				if err := db.Exec("ALTER TABLE `users` ADD `new3_field` varchar(255) NOT NULL").Error; err != nil {
 					return err
 				}
 				return nil
